@@ -6,8 +6,8 @@ import '../styles/Login.css';
 
 function Login({ onLoginSuccess }) {
    // Prepopola username e password con i valori predefiniti per velocizzare accesso
-   const [username, setUsername] = useState('a.nardelli');
-   const [password, setPassword] = useState('pegaso2024!');
+   const [username, setUsername] = useState('');
+   const [password, setPassword] = useState('');
 
   const [error, setError] = useState('');
   const navigate = useNavigate();
