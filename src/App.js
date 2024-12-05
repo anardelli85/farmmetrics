@@ -20,7 +20,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/farmmetrics">
       <Routes>
         {/* Login page */}
         <Route 
