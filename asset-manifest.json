@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/farmmetrics/static/css/main.5eedf0a6.css",
-    "main.js": "/farmmetrics/static/js/main.ee9e94e2.js",
+    "main.css": "/farmmetrics/static/css/main.4cb375a2.css",
+    "main.js": "/farmmetrics/static/js/main.3ed6fe3e.js",
     "static/js/453.3fa35f8f.chunk.js": "/farmmetrics/static/js/453.3fa35f8f.chunk.js",
     "static/media/background.webp": "/farmmetrics/static/media/background.e35f4e6d552690357888.webp",
     "static/media/logo.webp": "/farmmetrics/static/media/logo.4b0e281d8dac73dfda66.webp",
     "index.html": "/farmmetrics/index.html",
-    "main.5eedf0a6.css.map": "/farmmetrics/static/css/main.5eedf0a6.css.map",
-    "main.ee9e94e2.js.map": "/farmmetrics/static/js/main.ee9e94e2.js.map",
+    "main.4cb375a2.css.map": "/farmmetrics/static/css/main.4cb375a2.css.map",
+    "main.3ed6fe3e.js.map": "/farmmetrics/static/js/main.3ed6fe3e.js.map",
     "453.3fa35f8f.chunk.js.map": "/farmmetrics/static/js/453.3fa35f8f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5eedf0a6.css",
-    "static/js/main.ee9e94e2.js"
+    "static/css/main.4cb375a2.css",
+    "static/js/main.3ed6fe3e.js"
   ]
 }
