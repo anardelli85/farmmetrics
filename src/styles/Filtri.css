@@ -1,0 +1,14 @@
+/* src/styles/Filtri.css */
+.selectors-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .date-range-container {
+    position: relative;
+    min-width: 220px;
+  }
+  

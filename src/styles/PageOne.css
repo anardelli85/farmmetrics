@@ -1,0 +1,21 @@
+.page-one-container {
+    background-color: #f0f8ff; /* Un leggero azzurro per lo sfondo */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .page-one-title {
+    font-size: 28px;
+    color: #2c3e50; /* Un blu scuro per il titolo */
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .page-one-content {
+    font-size: 16px;
+    color: #34495e; /* Un grigio scuro per il testo */
+    line-height: 1.5;
+    text-align: justify;
+  }
+  

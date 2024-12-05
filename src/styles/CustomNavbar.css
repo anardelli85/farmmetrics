@@ -1,0 +1,53 @@
+.custom-navbar {
+    background-image: url('../assets/background.webp'); /* Assicurati che il percorso sia corretto */
+    background-size: cover; /* Assicura che l'immagine copra l'intera area della navbar */
+    background-repeat: no-repeat; /* Evita che l'immagine si ripeta */
+    background-position: center center; /* Centra l'immagine nella navbar */
+    padding: 10px 0;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    color: #0c3258 !important;
+    background-color: rgba(255, 255, 255, 0.7); /* Sfondo bianco semi-trasparente */
+    padding: 5px 10px; /* Aggiungi padding per creare spazio attorno alla scritta */
+    border-radius: 5px; /* Arrotonda gli angoli per un aspetto più elegante */
+  }
+  
+  
+  .navbar-nav-centered {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .navbar-nav-centered .nav-link {
+    font-size: 16px;
+    margin: 0 15px;
+    color: #0c3258 !important; 
+  }
+  
+  .navbar-nav-centered .nav-link:hover {
+    color: #00a55b !important; /* Colore verde al passaggio del mouse */
+  }
+  
+  .navbar-toggler {
+    margin-left: auto;
+  }
+  
+  button {
+    margin-left: 15px;
+    background-color: rgba(255, 255, 255, 0.8); /* Sfondo bianco semi-trasparente */
+    color: #f4f5f7 !important; /* Colore del testo scuro per il contrasto */
+    border: 2px solid #0c3258; /* Aggiungi un bordo scuro per evidenziare il contorno */
+    padding: 8px 16px; /* Aumenta il padding per rendere il pulsante più visibile */
+    border-radius: 5px; /* Arrotonda leggermente gli angoli */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Aggiungi un'ombra per un effetto di elevazione */
+  }
+  
+  button:hover {
+    background-color: #0c3258; /* Sfondo scuro al passaggio del mouse */
+    color: #000501 !important; /* Colore del testo bianco al passaggio del mouse */
+    border-color: #0c3258; /* Mantieni il bordo dello stesso colore */
+  }
+  

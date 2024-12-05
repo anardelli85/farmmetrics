@@ -1,0 +1,55 @@
+/* src/styles/DateRangePicker.css */
+.react-datepicker-wrapper {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .react-datepicker__input-container {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .react-datepicker__input-container input {
+    border: 1px solid #ced4da; /* Colore del bordo simile alle select */
+    border-radius: 4px; /* Arrotonda gli angoli */
+    padding: 8px 10px; /* Spaziatura interna per un aspetto migliore */
+    font-size: 14px;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera */
+    transition: border-color 0.2s, box-shadow 0.2s; /* Per un effetto di focus più gradevole */
+  }
+  
+  .react-datepicker__input-container input:focus {
+    border-color: #00a55b; /* Colore di focus simile a quello delle select */
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 165, 91, 0.2); /* Aggiunge un'ombra verde chiaro */
+  }
+  
+  .react-datepicker-popper {
+    z-index: 1000;
+    position: absolute;
+    transform: translateY(4px); /* Posiziona il calendario subito sotto l'input */
+    left: 0;
+    margin-top: 0; /* Rimuovi il margine per evitare ulteriori spostamenti */
+  }
+  
+
+  .date-range-picker {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .clear-button {
+    background: #ff6347; /* Colore rosso per evidenziare il pulsante */
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .clear-button:hover {
+    background: #e5533b; /* Colore leggermente più scuro al passaggio del mouse */
+  }
+  

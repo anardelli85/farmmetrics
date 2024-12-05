@@ -1,0 +1,15 @@
+/* src/styles/sameDataComposedChart.css */
+.chart-container {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .chart-description {
+    font-size: 12px;
+    text-align: center;
+    margin: 5px 0;
+    color: #666;
+  }
+  

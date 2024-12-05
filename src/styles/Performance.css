@@ -1,0 +1,34 @@
+.performance-section {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: 0px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.performance-title {
+  font-size: 18px;  /* Aumenta la dimensione del font */
+  font-weight: bold;  /* Rendi il testo in grassetto */
+  color: #111110;  /* Cambia il colore del testo */
+  text-align: center;  /* Centra il titolo */
+  padding: 15px 0;  /* Aggiungi spazio sopra e sotto */
+  border-bottom: 2px solid #000407;  /* Aggiungi una linea sotto il titolo */
+  margin-bottom: 20px;  /* Aggiungi spazio sotto il titolo */
+  background-color: #dedede;  /* Cambia lo sfondo per evidenziare */
+  border-radius: 8px;  /* Aggiungi bordi arrotondati */
+}
+
+.performance-graphs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 0px;
+}
+
+.performance-graphs > div {
+  width: 100%; /* Imposta la larghezza al 100% */
+  max-width: 1200px; /* Aggiungi una larghezza massima se necessario */
+  box-sizing: border-box;
+}

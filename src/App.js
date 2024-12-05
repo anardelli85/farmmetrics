@@ -1,24 +1,59 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import Login from './components/Login';
+import CustomNavbar from './components/CustomNavbar';
+import Home from './pages/Home';
+import NotFound from './pages/NotFound';
 
 function App() {
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+  const handleLoginSuccess = () => {
+    setIsAuthenticated(true);
+  };
+
+   // Funzione per gestire il logout
+   const handleLogout = () => {
+    console.log('Logout initiated'); // Per debugging
+    setIsAuthenticated(false);
+    localStorage.removeItem('isAuthenticated'); // Se hai salvato l'autenticazione nel localStorage
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        {/* Login page */}
+        <Route 
+          path="/" 
+          element={
+            isAuthenticated ? (
+              <Navigate to="/home" replace />
+            ) : (
+              <Login onLoginSuccess={handleLoginSuccess} />
+            )
+          } 
+        />
+
+        {/* Protected routes */}
+        {isAuthenticated && (
+          <>
+            <Route 
+              path="/home" 
+              element={
+                <>
+                  <CustomNavbar onLogout={handleLogout} />
+                  <Home />
+                </>
+              } 
+            />
+      
+          </>
+        )}
+        
+        {/* Fallback for unknown routes */}
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Router>
   );
 }
 

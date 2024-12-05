@@ -1,0 +1,36 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Permette lo scrolling verticale */
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Copre l'intera altezza della finestra */
+  background-color: #e8f5e9;
+}
+
+.home-content {
+  flex-grow: 1; /* Occupa lo spazio rimanente, spingendo il footer verso il basso */
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 14px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px auto; /* Centra il contenuto orizzontalmente */
+  width: 100%;
+}
+
+.home-footer {
+  font-size: 12px;
+  color: #6c757d;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f8f9fa;
+  width: 100%;
+  border-top: 1px solid #e0e0e0;
+  box-sizing: border-box;
+}
