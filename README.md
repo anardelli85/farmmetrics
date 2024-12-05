@@ -1,70 +1,77 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **FarmMetrics**
 
-## Available Scripts
+FarmMetrics è un'applicazione sviluppata in **React** che fornisce strumenti interattivi per l'analisi delle performance aziendali nel settore primario. L'app offre funzionalità per visualizzare dati relativi ad appezzamenti, colture e altre metriche chiave, con filtri personalizzabili.
 
-In the project directory, you can run:
+## **Caratteristiche principali**
+- **Dashboard interattiva**: Visualizza dati su colture, temperature e metriche di raccolta.
+- **Filtri dinamici**: Filtra i dati per intervalli di date, appezzamenti e tipologie di colture.
+- **Grafici personalizzati**: Supporta grafici a barre, a linee e altre visualizzazioni interattive.
+- **Responsività**: Ottimizzato per desktop e dispositivi mobili.
 
-### `npm start`
+## **Tecnologie utilizzate**
+- **Frontend**: React, React Router, React Bootstrap, Recharts
+- **Stili**: CSS personalizzato
+- **Gestione del tempo**: date-fns
+- **Altro**: react-datepicker, react-select
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Requisiti**
+- **Node.js**: Versione 14 o superiore
+- **NPM**: Versione 6 o superiore
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **Installazione**
+Per eseguire l'applicazione in locale, segui questi passaggi:
 
-### `npm test`
+1. Clona il repository:
+   ```bash
+   git clone https://github.com/anardelli85/farmmetrics.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Vai nella directory del progetto:
+   ```bash
+   cd farmmetrics
+   ```
 
-### `npm run build`
+3. Installa le dipendenze:
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Avvia il server di sviluppo:
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Apri il browser e vai su:
+   ```
+   http://localhost:3000
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **Deploy**
+L'applicazione è pubblicata su GitHub Pages ed è accessibile al seguente link:
 
-### `npm run eject`
+[FarmMetrics su GitHub Pages](https://anardelli85.github.io/farmmetrics)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Per eseguire il deploy, usa il comando:
+```bash
+npm run deploy
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## **Struttura del progetto**
+La struttura del progetto segue le migliori pratiche di React:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+src/
+├── components/        # Componenti riutilizzabili (es. Navbar, Filtri)
+├── pages/             # Pagine principali dell'app (es. Home, Login, NotFound)
+├── styles/            # File CSS per stili personalizzati
+├── App.js             # Componente principale
+├── index.js           # Punto di ingresso dell'app
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## **Contributi**
+Contributi al progetto sono benvenuti! Puoi inviare una pull request o segnalare un problema tramite la sezione **Issues**.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## **Autore**
+L'applicazione è stata sviluppata da **Antonio Nardelli**. Per domande o suggerimenti, contatta [antonio.nardelli85@gmail.com](mailto:antonio.nardelli85@gmail.com).
